@@ -1,0 +1,90 @@
+.btn{
+
+  .btn;
+
+  outline: none;
+  text-shadow: none;
+  background-image: none;
+  border-radius: 15px 25px;
+
+
+
+  &:active, &.active{
+    outline: none;
+    color: white;
+  }
+
+  &:active:hover, &.active.hover{
+    outline: none;
+    color: white;
+  }
+
+  &:hover, &.hover {
+    color: white;
+    outline: none;
+    box-shadow: 3px 3px 7px black;
+  }
+
+  &:focus, &.focus {
+    color: white;
+    outline: none;
+    box-shadow: 0 0 2px 2px @brand-success;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] {
+    .box-shadow(none);
+    opacity: 1;
+    color: grey;
+  }
+
+  .fa {
+    color: white;
+    font-size: 18px;
+    font-weight: @font-bold;
+  }
+}
+
+.btn-default{
+
+  .btn;
+
+  padding: 10px 20px;
+
+  &.spacing{
+    margin-bottom: 10px;
+  }
+
+  background-color: @brand-primary;
+  border-color: @brand-secondary;
+
+  &:active, &.active {
+    outline: none;
+    background: @brand-primary;
+    border-color: @brand-success;
+  }
+
+  &:active:focus, &.active.focus {
+    outline: none;
+    background: @brand-primary;
+    border-color: @brand-success;
+  }
+
+  &:focus, &.focus {
+    outline: none;
+    background: @brand-secondary;
+    border-color: @brand-success;
+  }
+
+  &:hover, &.hover {
+    background: @brand-secondary;
+    border-color: @brand-secondary;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] {
+    background-color: @brand-disabled;
+  }
+}
