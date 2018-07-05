@@ -1,41 +1,12 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
 
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.log
-*.orig
-*.rej
-*.swo
-*.swp
-*.vi
-*.zip
-*~
-
-# OS or Editor folders
-._*
-.cache
-.DS_Store
+# IntelliJ project files
 .idea
-.project
-.settings
-.tmproj
-*.esproj
-*.sublime-project
-*.sublime-workspace
-nbproject
-Thumbs.db
-
-# Komodo
-.komodotools
-*.komodoproject
-
-# Jekyll metadata
-docs/.jekyll-metadata
-
-# Folders to ignore
-bower_components
-node_modules
+*.iml
+out
+gen
+.idea/
+/node_modules/
+!/node_modules/bootstrap/
