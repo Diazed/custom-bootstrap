@@ -12,8 +12,9 @@ $teal:    #20c997;
 $cyan:    #17a2b8;
 $white:   #fff;
 
-$primary:       $blue;
-$success:       $white;
+$primary:       #ffeac5;
+$secondary:     #e7c892;
+$success:       $green;
 $info:          $cyan;
 $warning:       $yellow;
 $danger:        $red;
@@ -28,5 +29,7 @@ $spacers: map-merge((
   4: ($spacer * 1.5),
   5: ($spacer * 3),
   6: ($spacer * 5),
-  7: ($spacer * 9)
+  7: ($spacer * 9),
+  8: ($spacer * 12)
 ), $spacers);
+

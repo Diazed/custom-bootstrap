@@ -14,7 +14,7 @@
 
 <header>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark pt-2">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary pt-2">
         <a class="navbar-brand" href="#">Novelists</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,15 +41,40 @@
 
 <!-- Begin page content -->
 <main role="main" class="container-fluid">
-    <div class="section pt-6 pb-6">
-        <h1 class="mt-5">Sticky footer with <i class="fas fa-stroopwafel"></i> fixed navbar</h1>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-        <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
+    <!--Top welcoming section-->
+    <div class="section compass-bg py-8 row bg-secondary">
+
+        <!--Two Columns left for a welcoming text and right for CTA-->
+        <div class="col-xs-12 col-lg-5">
+            <div class="mx-sm-5 mx-xl-7 ">
+
+                <div class="welcomeing d-md-inline-flex p-3 p-xs-5 pr-sm-5 rounded text-center text-md-left">
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <h1 class=" display-2">Novelists</h1>
+                        </div>
+                        <div class="flex-column">
+                            <p class="lead">Awesome Page</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-7">
+            <div class="cta-box bg-primary mx-sm-5 p-3 ml-md-8 mr-md-8 mt-5">
+                Smth
+            </div>
+        </div>
+    </div>
+    <!--Game Info section-->
+    <div>
+
     </div>
 </main>
 
 
-
+Footer
 <footer class="footer">
     <div class="container-fluid">
         <span class="text-muted">Place sticky footer content here.</span>
@@ -57,8 +82,8 @@
 </footer>
 
 
-<script src="/js/jquery.min.js"/>
-<script src="/js/tether.min.js"/>
-<script src="/js/bootstrap.min.js"/>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/tether.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
