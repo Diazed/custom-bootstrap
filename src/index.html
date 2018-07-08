@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,9 +13,10 @@
 
 <header>
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-primary pt-2">
+    <nav class="navbar shadow  navbar-expand-md navbar-light fixed-top bg-primary border border-secondary pt-2">
         <a class="navbar-brand" href="#">Novelists</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -25,15 +25,13 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">Novels</a>
                 </li>
             </ul>
             <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2 mb-1 mb-sm-0" type="text" placeholder="E-Mail" aria-label="E-Mail">
+                <input class="form-control mr-sm-2 mb-1 mb-sm-0" type="password" placeholder="Password" aria-label="Password">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
             </form>
         </div>
     </nav>
@@ -42,40 +40,116 @@
 <!-- Begin page content -->
 <main role="main" class="container-fluid">
     <!--Top welcoming section-->
-    <div class="section compass-bg py-8 row bg-secondary">
+    <div class="section compass-bg pb-6 pt-7 py-md-8 row  bg-secondary">
+
 
         <!--Two Columns left for a welcoming text and right for CTA-->
-        <div class="col-xs-12 col-lg-5">
+        <div class="col-xs-12 col-md-6">
             <div class="mx-sm-5 mx-xl-7 ">
 
-                <div class="welcomeing d-md-inline-flex p-3 p-xs-5 pr-sm-5 rounded text-center text-md-left">
+                <div class="welcomeing d-md-inline-flex p-2 px-xs-1 p-xs-5 px-xl-7 px-md-5 pr-sm-5 text-center shadow ">
                     <div class="flex-row">
-                        <div class="flex-column">
+                        <div class="flex-column headline">
                             <h1 class=" display-2">Novelists</h1>
                         </div>
                         <div class="flex-column">
-                            <p class="lead">Awesome Page</p>
+                            <p class=" subline m-0">Experience interactive stories.</p>
+                            <p class=" subline m-0">You decide where to go.</p>
                         </div>
                     </div>
                 </div>
 
             </div>
         </div>
-        <div class="col-xs-12 col-md-7">
-            <div class="cta-box bg-primary mx-sm-5 p-3 ml-md-8 mr-md-8 mt-5">
-                Smth
+        <div class="col-12 col-md-6">
+
+            <div class="mx-sm-5 mx-xl-7 mt-6 mt-lg-7">
+                <div class="col-12 col-md-8 offset-md-4 offset-lg-5">
+                    <div class="p-1 rounded cta">
+                        <button type="button" class="btn btn-primary btn-block btn-lg">Sing up</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!--Game Info section-->
-    <div>
+    <div class="row bg-primary border border-secondary">
+
+        <!--Eight columns. Three for Icons and another three for information text. Spacing left and right with additional columns.-->
+        <div class="col-lg-10 offset-lg-1 py-4">
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <!--Icon-->
+                        <div class="col-1 pt-3">
+                            <i class="far fa-2x fa-compass"></i>
+                        </div>
+                        <!--Text-->
+                        <div class="col-10 infobox">
+                            <div class="headline pl-2 text-nowrap">
+                                <h2 class="display-4">You decide</h2>
+                            </div>
+                            <div class="text p-3">
+                                <p>What you will experience here is different from an ordinary book. You can decide for
+                                    yourself
+                                    what you will do next. Every decision taken can have a massive effect on the
+                                    history.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <!--Icon-->
+                        <div class="col-1 pt-3">
+                            <i class="fas fa-2x fa-male"></i>
+                        </div>
+                        <!--Text-->
+                        <div class="col-10 infobox">
+                            <div class="headline pl-2 text-nowrap">
+                                <h2 class="display-4">You survive</h2>
+                            </div>
+                            <div class="text p-3">
+                                <p>The adventures you'll go through require your attention. Make sure your character
+                                    doesn't starve or dehydrate. Throughout the story, you will find items that'll turn
+                                    out to be helpful.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <!--Icon-->
+                        <div class="col-1 pt-3">
+                            <i class="far fa-2x fa-edit"></i>
+                        </div>
+                        <!--Text-->
+                        <div class="col-10 infobox">
+                            <div class="headline pl-2 text-nowrap">
+                                <h2 class="display-4">You write</h2>
+                            </div>
+                            <div class="text p-3">
+                                <p>What you will experience here is different from an ordinary book. You can decide for
+                                    yourself
+                                    what you will do next. Every decision taken can have a massive effect on the
+                                    history.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
 
     </div>
 </main>
 
 
 Footer
-<footer class="footer">
+<footer class="footer ">
     <div class="container-fluid">
         <span class="text-muted">Place sticky footer content here.</span>
     </div>

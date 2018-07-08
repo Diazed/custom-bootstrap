@@ -1,4 +1,5 @@
 @import "src/scss/variables";
+@import "src/scss/fonts";
 
 body {
     background: $white;
@@ -7,9 +8,28 @@ body {
 .compass-bg {
 
     background-image: url(/img/compass.jpg);
+    background-attachment: fixed;
 
 }
 
 .welcomeing {
+    border-radius: 20px;
     background: rgba($primary, 0.8);
+    .headline{
+        font-family: "DancingScript";
+    }
+    .subline {
+        font-family: "Comfortaa";
+        font-size: $font-size-md;
+    }
+}
+
+.infobox {
+    .headline {
+        font-family: "DancingScript";
+    }
+}
+
+.cta {
+    background: rgba($secondary, 0.8);
 }
