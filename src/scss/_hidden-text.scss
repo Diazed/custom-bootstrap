@@ -1,0 +1,17 @@
+@import "src/scss/variables";
+
+.hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    font-style: normal;
+    transition: visibility 1s, opacity 1s;
+}
+
+
+.icon-buttons:hover {
+    .hidden-text {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+

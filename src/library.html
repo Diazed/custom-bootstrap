@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Novelists | Library</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
+</head>
+<body>
+
+<header>
+    <!-- Fixed navbar -->
+    <nav class="navbar shadow  navbar-expand-lg navbar-light fixed-top bg-primary border border-secondary pt-2">
+        <a class="navbar-brand" href="index.html">Novelists</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="library.html">Library</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2 mb-1 mb-sm-0" type="text" placeholder="E-Mail" aria-label="E-Mail">
+                <input class="form-control mr-sm-2 mb-1 mb-sm-0" type="password" placeholder="Password"
+                       aria-label="Password">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+            </form>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!--Head-->
+    <div class="section compass-bg pb-3 pt-4 py-6  bg-secondary row justify-content-center">
+        <div class="col-xs-6 col-lg-5 welcomeing text-center shadow  p-2 px-xs-1 p-xs-5 px-xl-7 px-md-5">
+            <div class="headline">
+                <h1 class=" display-2">Library</h1>
+            </div>
+            <div class="text-nowrap">
+                <p class=" subline m-0">Welcome to the Library.</p>
+                <p class=" subline m-0">The place to find new Stories.</p>
+            </div>
+        </div>
+    </div>
+    <!--List of Novels - Search Bar - Filter-->
+    <div class="section row">
+        <div class="col-lg-8 offset-lg-2 bg-secondary">
+
+            <div class="row justify-content-center px-1">
+                <div class="col-lg-12 col-11 bg-primary rounded-bottom py-2">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-9">
+                                <input class="form-control form-control-lg" type="text" placeholder="Search for a Title"
+                                       aria-label="Search">
+                            </div>
+                            <div class="col-3">
+                                <button class="btn btn-lg btn-outline-success btn-block" type="submit"><i
+                                        class="fas fa-search"></i> Search
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!--Start of Library-->
+            <!--Loop every found Novel here-->
+            <div class="row  justify-content-center p-1">
+                <div class="col-lg-12 col-11 bg-primary rounded shadow">
+
+                    <div class="row justify-content-between py-2">
+                        <!--Left - Info about Title/Author - Button to start the Novel-->
+                        <div class="col-5">
+                            <!--Title and Author-->
+                            <div class="text-nowrap">
+                                <h2 class="mb-0">Orphans</h2>
+                                <p class="headline">Maik Müller</p>
+                            </div>
+                            <!--Buttons-->
+                            <div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm shadow"><i
+                                        class="fas fa-book-open"></i><span class="sr-only">Read this</span>
+                                </button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm shadow"><i
+                                        class="fas fa-plus"></i></button>
+                                <button type="button" class="btn btn-outline-secondary btn-sm shadow"><i
+                                        class="fas fa-flag"></i></button>
+                            </div>
+                        </div>
+
+                        <!--Right - Info about Rating/Tags/Date of creation-->
+                        <div class="col-4 ">
+
+                            <div class="row">
+                                <!--Rating-->
+                                <div class="col-12 align-self-start">
+
+                                    <div class="text-right">
+                                        <i class="fas fa-feather "></i>
+                                        <i class="fas fa-feather "></i>
+                                        <i class="fas fa-feather "></i>
+                                        <i class="fas fa-feather "></i>
+                                        <i class="fas fa-feather text-secondary"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row d-flex">
+                                <div class="col-12 align-self-end">
+                                    <!--Rating-->
+                                    <div class="text-right headline">
+                                        04.05.2018
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center text-primary bg-secondary">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="row justify-content-center p-1">
+                <div class="col-lg-12 col-11 bg-primary rounded shadow">
+
+                    <div class="row justify-content-between py-2">
+                        <!--Left - Info about Title/Author - Button to start the Novel-->
+                        <div class="col-5">
+                            <!--Title and Author-->
+                            <div class="text-nowrap">
+                                <h2 class="mb-0">The Last Farmer</h2>
+                                <p class="headline">Tom42</p>
+                            </div>
+                            <!--Button to start the Novel-->
+                            <div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">Play</button>
+                            </div>
+                        </div>
+
+                        <!--Right - Info about Rating/Tags/Date of creation-->
+                        <div class="col-4 text-right">
+                            <!--Rating-->
+                            <div class="text-right">
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center p-1">
+                <div class="col-lg-12 col-11 bg-primary rounded shadow">
+
+                    <div class="row justify-content-between py-2">
+                        <!--Left - Info about Title/Author - Button to start the Novel-->
+                        <div class="col-5">
+                            <!--Title and Author-->
+                            <div class="text-nowrap">
+                                <h2 class="mb-0">Weyland Corp.</h2>
+                                <p class="headline">Marek Müller</p>
+                            </div>
+                            <!--Button to start the Novel-->
+                            <div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">Play</button>
+                            </div>
+                        </div>
+
+                        <!--Right - Info about Rating/Tags/Date of creation-->
+                        <div class="col-4 text-right">
+                            <!--Rating-->
+                            <div class="text-right">
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center p-1">
+                <div class="col-lg-12 col-11 bg-primary rounded shadow">
+
+                    <div class="row justify-content-between py-2">
+                        <!--Left - Info about Title/Author - Button to start the Novel-->
+                        <div class="col-5">
+                            <!--Title and Author-->
+                            <div class="text-nowrap">
+                                <h2 class="mb-0">The Next Day</h2>
+                                <p class="headline">Louise Darling</p>
+                            </div>
+                            <!--Button to start the Novel-->
+                            <div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">Play</button>
+                            </div>
+                        </div>
+
+                        <!--Right - Info about Rating/Tags/Date of creation-->
+                        <div class="col-4 text-right">
+                            <!--Rating-->
+                            <div class="text-right">
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row justify-content-center p-1">
+                <div class="col-lg-12 col-11 bg-primary rounded shadow">
+
+                    <div class="row justify-content-between py-2">
+                        <!--Left - Info about Title/Author - Button to start the Novel-->
+                        <div class="col-5">
+                            <!--Title and Author-->
+                            <div class="text-nowrap">
+                                <h2 class="mb-0">The Tentacle of Delphi</h2>
+                                <p class="headline">KäptnPeng</p>
+                            </div>
+                            <!--Button to start the Novel-->
+                            <div>
+                                <button type="button" class="btn btn-outline-secondary btn-sm">Play</button>
+                            </div>
+                        </div>
+
+                        <!--Right - Info about Rating/Tags/Date of creation-->
+                        <div class="col-4 text-right">
+                            <!--Rating-->
+                            <div class="text-right">
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather "></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                                <i class="fas fa-feather text-secondary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+
+<script src="/js/jquery.min.js"></script>
+<script src="/js/tether.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,6 +1,7 @@
 @import "src/scss/variables";
 @import "src/scss/fonts";
 
+
 body {
     background: $white;
 }
@@ -24,10 +25,9 @@ body {
     }
 }
 
-.infobox {
-    .headline {
-        font-family: "DancingScript";
-    }
+
+.headline {
+    font-family: "DancingScript";
 }
 
 .cta {
