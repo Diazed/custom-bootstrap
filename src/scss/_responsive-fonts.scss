@@ -1,0 +1,39 @@
+@import "node_modules/bootstrap/scss/mixins/breakpoints";
+
+@include media-breakpoint-up(xs) {
+  .responsive-headline {
+    font-size: 1rem;
+  }
+
+  .responsive-icon {
+    font-size: 0.9rem;
+  }
+
+}
+
+@include media-breakpoint-up(sm) {
+  .responsive-headline {
+    font-size: 1.2rem;
+  }
+
+  .responsive-icon {
+    font-size: 1rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .responsive-headline {
+    font-size: 1.5rem;
+  }
+
+  .responsive-icon {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .responsive-headline {
+    font-size: 1.7rem;
+  }
+}
+

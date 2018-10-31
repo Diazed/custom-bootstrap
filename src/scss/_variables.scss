@@ -37,6 +37,14 @@ $spacers: map-merge((
   8: ($spacer * 12)
 ), $spacers);
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
 $font-size-base:              1rem;
 $font-size-lg:                ($font-size-base * 1.25);
 $font-size-md:                ($font-size-base * 1.10);
